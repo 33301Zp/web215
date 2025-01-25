@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(173, 202, 230);
+    font-family: Optima, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    margin-top: 10px;
+}
+h2 {
+    border: 3px solid rgba(33, 125, 161, 0.781);
+    align-items: center;
+    flex: -2;
+}
+figcaption {
+    font-style: italic;
+    margin-left: 20px;
+}
+figure {
+    border: 3px solid rgba(136, 33, 161, 0.781);
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+main {
+    margin: auto;
+    margin: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.781);
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+main p {
+    border: 3px solid rgba(243, 241, 244, 0.781);
+    max-width: 400px;
+    flex: 1;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
