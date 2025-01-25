@@ -1,5 +1,6 @@
 body {
     background-color: rgb(173, 202, 230);
+    background-image: radial-gradient(circle, rgba(168, 193, 236, 0.932), rgba(129, 182, 248, 0.712), rgba(37, 134, 245, 0.76));
     font-family: Optima, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
@@ -8,36 +9,40 @@ header {
     text-align: center;
     margin-top: 10px;
 }
+hr {
+    border: 3px solid rgba(0, 0, 0, 0.567);
+}
+h1 {
+    max-width: 4000px;
+}
 h2 {
-    border: 3px solid rgba(33, 125, 161, 0.781);
-    align-items: center;
-    flex: -2;
+    text-align: center;
 }
 figcaption {
     font-style: italic;
     margin-left: 20px;
 }
 figure {
-    border: 3px solid rgba(136, 33, 161, 0.781);
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     object-fit: cover;
     vertical-align: middle;
 }
-main {
+.flex {
     margin: auto;
-    margin: 20px;
-    border: 3px solid rgba(0, 0, 0, 0.781);
-    padding: 0 15px;
+    margin: 10px;
+    padding: 0 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    gap: 5rem;
+    justify-content: space-around;
+    gap: 2rem;
 }
 main p {
-    border: 3px solid rgba(243, 241, 244, 0.781);
-    max-width: 400px;
+    background-color: rgba(214, 246, 246, 0.567);
+    padding: 15px;
+    max-width: 500px;
+    min-width: 300px;
     flex: 1;
 }
 ul {
