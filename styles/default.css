@@ -2,18 +2,15 @@ body {
     background-color: rgb(173, 202, 230);
     background-image: radial-gradient(circle, rgba(168, 193, 236, 0.932), rgba(129, 182, 248, 0.712), rgba(37, 134, 245, 0.76));
     font-family: Optima, sans-serif;
-    max-width: 1200px;
     margin: 0 auto;
 }
 header {
     text-align: center;
-    margin-top: 10px;
-}
-hr {
-    border: 3px solid rgba(0, 0, 0, 0.567);
-}
-h1 {
-    max-width: 4000px;
+    border-bottom: 3px dotted rgba(37, 134, 245, 0.76);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(214, 246, 246, 0.567);
+    margin-left: 0px;
 }
 h2 {
     text-align: center;
@@ -36,11 +33,12 @@ figure {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    gap: 2rem;
 }
 main p {
     background-color: rgba(214, 246, 246, 0.567);
-    padding: 15px;
+    border: 2px dotted rgba(37, 134, 245, 0.76);
+    border-radius: 5px;
+    padding: 20px;
     max-width: 500px;
     min-width: 300px;
     flex: 1;
@@ -53,4 +51,11 @@ ul {
 }
 footer {
     text-align: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
 }
