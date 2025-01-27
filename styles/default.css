@@ -2,7 +2,7 @@ body {
     background-color: rgb(173, 202, 230);
     background-image: radial-gradient(circle, rgba(168, 193, 236, 0.932), rgba(129, 182, 248, 0.712), rgba(37, 134, 245, 0.76));
     font-family: Optima, sans-serif;
-    margin: 0 auto;
+    margin: 0;
 }
 header {
     text-align: center;
@@ -11,6 +11,7 @@ header {
     padding-bottom: 10px;
     background-color: rgba(214, 246, 246, 0.567);
     margin-left: 0px;
+    width: 100%;
 }
 h2 {
     text-align: center;
@@ -47,11 +48,37 @@ main p {
     min-width: 300px;
     flex: 1;
 }
+section {
+    background-color: rgba(214, 246, 246, 0.567);
+    border: 2px dotted rgba(37, 134, 245, 0.76);
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
 ul {
+    list-style-type: disc;
+    padding: 0;
+    margin-left: 20px;
+}
+ol li {
+    list-style-type: circle;
+}
+nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 10px;
+}
+footer ul {
+    list-style-type: none;
 }
 footer {
     text-align: center;
