@@ -85,7 +85,8 @@ footer {
     text-align: center;
 }
 a {
-    color: black;
+    color: rgb(31, 28, 111);
+    font-style: italic;
     text-decoration: none;
 }
 a:hover {
