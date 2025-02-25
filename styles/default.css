@@ -48,7 +48,7 @@ main p {
     min-width: 300px;
     flex: 1;
 }
-section {
+aside {
     background-color: rgba(214, 246, 246, 0.567);
     border: 2px dotted rgba(37, 134, 245, 0.76);
     border-radius: 5px;
@@ -63,7 +63,7 @@ ul {
     padding: 0;
     margin-left: 20px;
 }
-ol li {
+#clearCircle {
     list-style-type: circle;
 }
 nav ul {
