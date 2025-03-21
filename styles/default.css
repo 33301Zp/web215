@@ -29,7 +29,7 @@ figure {
 img {
     box-shadow: 0px 0px 80px rgba(239, 239, 247, 0.712);
 }
-#flex {
+.flex {
     margin: 10px auto;
     padding: 0 70px;
     padding-bottom: 40px;
@@ -48,7 +48,7 @@ main p {
     min-width: 300px;
     flex: 1;
 }
-#textBox {
+.textBox {
     background-color: rgba(214, 246, 246, 0.567);
     border: 2px dotted rgba(37, 134, 245, 0.76);
     border-radius: 5px;
