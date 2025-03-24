@@ -13,6 +13,9 @@ header {
     margin-left: 0px;
     width: 100%;
 }
+nav {
+    font-size: 120%;
+}
 h2 {
     text-align: center;
 }
@@ -38,6 +41,7 @@ img {
     align-items: center;
     justify-content: space-around;
     max-width: 1200px;
+    font-size: 120%;
 }
 main p {
     background-color: rgba(214, 246, 246, 0.567);
@@ -47,6 +51,7 @@ main p {
     max-width: 500px;
     min-width: 300px;
     flex: 1;
+    font-size: 120%;
 }
 .textBox {
     background-color: rgba(214, 246, 246, 0.567);
@@ -83,6 +88,7 @@ footer ul {
 }
 footer {
     text-align: center;
+    font-size: 120%;
 }
 a {
     color: rgb(31, 28, 111);
