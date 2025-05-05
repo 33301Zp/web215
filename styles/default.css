@@ -3,6 +3,9 @@ body {
     background-image: radial-gradient(circle, rgba(168, 193, 236, 0.932), rgba(129, 182, 248, 0.712), rgba(37, 134, 245, 0.76));
     font-family: Optima, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header {
     text-align: center;
@@ -44,6 +47,7 @@ img {
 }
 main {
     margin-bottom: 10px;
+    flex-grow: 1;
 }
 main p {
     background-color: rgba(214, 246, 246, 0.567);
@@ -97,6 +101,7 @@ footer {
     margin-bottom: -20px;
     padding-bottom: 10px;
     padding-top: 10px;
+    position: relative;
 }
 a {
     color: rgb(31, 28, 111);
