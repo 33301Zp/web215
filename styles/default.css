@@ -42,6 +42,9 @@ img {
     justify-content: space-around;
     max-width: 1200px;
 }
+main {
+    margin-bottom: 10px;
+}
 main p {
     background-color: rgba(214, 246, 246, 0.567);
     border: 2px dotted rgba(37, 134, 245, 0.76);
@@ -89,6 +92,11 @@ footer ul {
 footer {
     text-align: center;
     font-size: 120%;
+    border-top: 3px dotted rgba(37, 134, 245, 0.76);
+    background-color: rgba(214, 246, 246, 0.567);
+    margin-bottom: -20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 a {
     color: rgb(31, 28, 111);
