@@ -98,10 +98,6 @@ footer {
     font-size: 120%;
     border-top: 3px dotted rgba(37, 134, 245, 0.76);
     background-color: rgba(214, 246, 246, 0.567);
-    margin-bottom: -20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    position: relative;
 }
 a {
     color: rgb(31, 28, 111);
